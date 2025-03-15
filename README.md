@@ -4,7 +4,7 @@
 
 | Login Screen | Dashboard | Report Page | Rewards |
 |--------------|-----------|-------------|---------|
-| ![Login Screen](https://user-images.githubusercontent.com/123456789/123456789-login.png) | ![Dashboard](https://user-images.githubusercontent.com/123456789/123456789-dashboard.png) | ![Report Page](https://user-images.githubusercontent.com/123456789/123456789-report.png) | ![Rewards](https://user-images.githubusercontent.com/123456789/123456789-rewards.png) |
+| ![Login Screen](./screenshot-1.png) | ![Dashboard](./screenshot-2.png) | ![Report Page](./screenshot-3.png) | ![Rewards](./screenshot-4.png) |
 
 ## Demo Video
 
