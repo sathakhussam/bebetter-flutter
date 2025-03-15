@@ -148,7 +148,7 @@ class _LoginPageState extends State<LoginPage> {
                         borderRadius: BorderRadius.circular(4),
                       ),
                       child: Text(
-                        "Bhavesh Bellaney",
+                        "Outlaws",
                         style: const TextStyle(
                           fontWeight: FontWeight.w900,
                           fontSize: 12,

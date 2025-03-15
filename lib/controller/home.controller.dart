@@ -1,4 +1,5 @@
 import 'package:bebetter/models/card.model.dart';
+import 'package:bebetter/pages/instruction.page.dart';
 import 'package:bebetter/pages/rewards.page.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,6 @@ class HomeController {
           'assets/images/workspace.webp',
           height: 80,
         ),
-        redirectTo: RewardsPage(),
       ),
       CardModel(
         title: "Complaints",
@@ -38,6 +38,7 @@ class HomeController {
         backgroundColor: Color(0xFF006FFD),
         isInfoCard: false,
         folderIcon: true,
+        redirectTo: RewardsPage(),
       ),
       CardModel(
         title: "Instructions",
@@ -48,6 +49,7 @@ class HomeController {
         backgroundColor: Color(0xFF006FFD),
         isInfoCard: false,
         folderIcon: true,
+        redirectTo: InstructionPage(),
       ),
     ];
   }
