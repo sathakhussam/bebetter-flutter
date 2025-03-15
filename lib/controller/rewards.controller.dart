@@ -4,7 +4,6 @@ import 'package:bebetter/models/card.model.dart';
 import 'package:bebetter/pages/complaint.page.dart';
 import 'package:bebetter/pages/instruction.page.dart';
 import 'package:bebetter/pages/report.page.dart';
-import 'package:bebetter/pages/rewards.page.dart';
 import 'package:flutter/material.dart';
 
 class AssignedClassesController {
@@ -50,22 +49,58 @@ class AssignedClassesController {
 class StudentController {
   List<StudentModel> getCards() {
     return [
-      StudentModel(name: "Bhavesh Bellaney", attendance: "42", details: [
+      StudentModel(name: "TN 12 AX 1812", attendance: "42", details: [
         {
           "title": "Vehicle Number",
           "value": "MH 12 1234",
         },
         {
-          "title": "Vehicle Type",
-          "value": "Car",
+          "title": "Reports",
+          "value": "No rider helmet and no pillion helmet",
         },
         {
-          "title": "Vehicle Model",
-          "value": "Toyota",
+          "title": "Verified",
+          "value": "Yes",
         },
         {
-          "title": "Vehicle Color",
-          "value": "Black",
+          "title": "Your Earnings",
+          "value": "Rs. 10",
+        }
+      ]),
+      StudentModel(name: "TN 12 AX 1812", attendance: "42", details: [
+        {
+          "title": "Vehicle Number",
+          "value": "MH 12 1234",
+        },
+        {
+          "title": "Reports",
+          "value": "No rider helmet and no pillion helmet",
+        },
+        {
+          "title": "Verified",
+          "value": "Yes",
+        },
+        {
+          "title": "Your Earnings",
+          "value": "Rs. 10",
+        }
+      ]),
+      StudentModel(name: "TN 12 AX 1812", attendance: "42", details: [
+        {
+          "title": "Vehicle Number",
+          "value": "MH 12 1234",
+        },
+        {
+          "title": "Reports",
+          "value": "No rider helmet and no pillion helmet",
+        },
+        {
+          "title": "Verified",
+          "value": "Yes",
+        },
+        {
+          "title": "Your Earnings",
+          "value": "Rs. 10",
         }
       ]),
     ];

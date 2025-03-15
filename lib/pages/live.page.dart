@@ -37,7 +37,8 @@ class _LiveHelmetDetectionPageState extends State<LiveHelmetDetectionPage> {
   }
 
   Future<void> _loadModel() async {
-    _interpreter = await tfl.Interpreter.fromAsset("assets/model.tflite");
+    _interpreter =
+        await tfl.Interpreter.fromAsset("assets/model_unquant.tflite");
   }
 
   void _startDetection() {
@@ -56,6 +57,7 @@ class _LiveHelmetDetectionPageState extends State<LiveHelmetDetectionPage> {
             helmetProb > 0.5 ? "Helmet Present ✅" : "No Helmet Detected ❌";
       });
 
+      await Future.delayed(Duration(milliseconds: 500)); // Limit FPS
       _isDetecting = false;
     });
   }
