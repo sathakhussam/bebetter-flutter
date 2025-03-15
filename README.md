@@ -10,6 +10,18 @@
 
 [View Demo Video](demo-video.mov)
 
+## Demo apk
+
+To download the demo apk
+
+[Download demo apk](./demo.apk)
+
+## Presentation
+
+To download the presentation
+
+[View presentation](./presentation.pdf)
+
 BeBetter is an innovative mobile application designed to enhance road safety by detecting traffic violations using advanced machine learning techniques. Leveraging a TensorFlow Lite model, BeBetter focuses on identifying common traffic infractions that are often overlooked but critical for ensuring safety on the roads. Our app currently specializes in detecting the following violations:
 
 - **No rider helmet**: Ensures that motorcyclists are wearing helmets, significantly reducing the risk of head injuries in accidents.
