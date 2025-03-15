@@ -1,5 +1,7 @@
 import 'package:bebetter/models/card.model.dart';
+import 'package:bebetter/pages/complaint.page.dart';
 import 'package:bebetter/pages/instruction.page.dart';
+import 'package:bebetter/pages/report.page.dart';
 import 'package:bebetter/pages/rewards.page.dart';
 import 'package:flutter/material.dart';
 
@@ -18,6 +20,7 @@ class HomeController {
           'assets/images/workspace.webp',
           height: 80,
         ),
+        redirectTo: ReportPage(),
       ),
       CardModel(
         title: "Complaints",
@@ -28,6 +31,7 @@ class HomeController {
         backgroundColor: Colors.black,
         isInfoCard: false,
         folderIcon: true,
+        redirectTo: ComplaintPage(),
       ),
       CardModel(
         title: "Your Rewards",
